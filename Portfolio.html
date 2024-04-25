@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .header {
+        padding: 20px;
+        text-align: center;
+        background-color: slategray;
+        color: white;
+        font-size: 15px;
+      }
+      .About {
+        font-size: 20px;
+      }
+      .Skills {
+        font-size: 20px;
+      }
+      .Info {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="Heading">Portfolio</h1>
+    </div>
+    <div
+      style="
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        margin: 100px;
+        margin-bottom: 50px;
+        margin-left: 130px;
+        margin-right: 130px;
+        background-color: #ddb89b;
+        padding-top: 55px;
+        border: 2px solid;
+      "
+    >
+      <h1 style="margin: 150px">I am a Software Developer</h1>
+
+      <img
+        src="data:image/jpeg;base64,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"
+        width="400"
+        height="400"
+        style="border-radius: 20%; margin-bottom: 50px"
+      />
+    </div>
+    <br />
+    <br />
+    <hr />
+    <div
+      style="
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin: 100px;
+        margin-left: 130px;
+        margin-right: 130px;
+        padding-top: 20px;
+        border: 2px solid;
+        background-color: #ddb89b;
+      "
+    >
+      <div
+        style="
+          margin: 100px;
+          margin-top: 50px;
+          margin-left: 100px;
+          margin-bottom: 75px;
+          border: 2px solid;
+          width: 20vw;
+          text-align: center;
+          background-color: #2a2e41;
+        "
+      >
+        <h1 id="About">About Me</h1>
+      </div>
+      <div
+        style="
+          margin: 100px;
+          margin-top: 50px;
+          padding-top: 10px;
+          width: 30vw;
+          text-align: justify;
+        "
+      >
+        <p class="About">I am Sanket Patil. I am a full stack web Developer.</p>
+        <p class="About">
+          Currently i am pursuing b.tech in Computer Engineering.
+        </p>
+        <p class="About">Currntly i am a part time intern at Itinfo Academy.</p>
+      </div>
+    </div>
+    <hr />
+    <div
+      style="
+        margin-top: 50px;
+        margin: 100px;
+        margin-left: 130px;
+        padding-top: 20px;
+        border: 2px solid;
+        background-color: #ddb89b;
+      "
+    >
+      <div
+        style="
+          margin: 125px;
+          margin-top: 50px;
+          margin-bottom: 100px;
+          padding: 20;
+          border: 2px solid;
+          width: 15vw;
+          text-align: center;
+          background-color: #2a2e41;
+        "
+      >
+        <h1 id="Skills">Skills</h1>
+      </div>
+      <div
+        style="
+          margin: 125px;
+          justify-content: first baseline;
+          margin-top: 10px;
+          width: 35vw;
+          padding-top: 10px;
+        "
+      >
+        <p class="Skills">
+          <strong>Languages:</strong> C,C++, Python, Java, Data Analytics,
+          Javascript
+        </p>
+        <p class="Skills">
+          <strong>Technologies:</strong> HTML, CSS, BOOTSTRAP, SQL, Data
+          Science, AWS
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div
+      style="
+        margin-top: 50px;
+        margin: 100px;
+        margin-left: 130px;
+        padding-top: 20px;
+        border: 2px solid;
+        background-color: #ddb89b;
+      "
+    >
+      <div
+        style="
+          margin: 125px;
+          margin-top: 50px;
+          margin-bottom: 100px;
+          margin-left: 600px;
+          padding: 20;
+          border: 2px solid;
+          width: 15vw;
+          text-align: center;
+          background-color: #2a2e41;
+        "
+      >
+        <h1 id="Project">Project</h1>
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: 50px;
+          margin: 100px;
+          margin-bottom: 100px;
+          margin-left: 130px;
+          margin-right: 130px;
+          padding-top: 55px;
+          border: 2px solid;
+          background-color: #ddb89b;
+        "
+      >
+        <div
+          style="
+            margin: 100px;
+            margin-top: -55px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            border: 2px solid;
+          "
+        >
+          <img
+            src="Screenshot 2024-04-24 214944.png"
+            height="450px"
+            width="700px"
+            style="margin-bottom: 50px"
+          />
+        </div>
+        <vr></vr>
+
+        <div class="Info">
+          <h2>Home Services</h2>
+          <p class="Info" style="justify-content: center; margin-right: 50px">
+            When someone need aid with small but major household tasks, the
+            trouble arises when service skilled persons are unavailable or the
+            trusted providers are impossible to find, who delivers consistently
+            flawless service on instance. Our online system for household
+            services provides the most expedient and annoys free way to get your
+            domestic work done. We aim to help in providing optimal solutions to
+            all your household troubles with more efficiency, ease and majorly,
+            a delicate touch. A single click system describes booking highly
+            skilled in-house professionals and gets your service done on time.
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div
+      style="
+        margin-top: 50px;
+        margin: 100px;
+        margin-left: 130px;
+        padding-top: 20px;
+        border: 2px solid;
+        background-color: #ddb89b;
+      "
+    >
+      <div
+        style="
+          margin: 125px;
+          margin-top: 50px;
+          margin-bottom: 100px;
+          padding: 20;
+          border: 2px solid;
+          width: 15vw;
+          text-align: center;
+          background-color: #2a2e41;
+        "
+      >
+        <h1 id="Experience">Work Experience</h1>
+      </div>
+      <div
+        style="
+          margin: 125px;
+          justify-content: first baseline;
+          margin-top: 10px;
+          width: 35vw;
+          padding-top: 10px;
+        "
+      >
+        <h2>IT Engineer</h2>
+        <h3>Google India PVT.LMT</h3>
+        <p>2024 - Current</p>
+        <br />
+        <br />
+        <h2>Network Engineer</h2>
+        <h3>Microsoft</h3>
+        <p>2020-2022</p>
+        <br />
+        <br />
+        <h2>System Support Engineer</h2>
+        <h3>Wipro Pari</h3>
+        <p>2018-2020</p>
+        <br />
+        <br />
+        <h2>Software Engineer</h2>
+        <h3>Tata Consultancy Services Limited</h3>
+        <p>2014 - 2018</p>
+        <br />
+        <br />
+      </div>
+    </div>
+    <hr />
+    <div
+      style="
+        margin-top: 50px;
+        margin: 100px;
+        margin-left: 130px;
+        padding-top: 20px;
+        border: 2px solid;
+        background-color: #ddb89b;
+      "
+    >
+      <div
+        style="
+          margin: 125px;
+          margin-top: 50px;
+          margin-bottom: 100px;
+          padding: 20;
+          border: 2px solid;
+          width: 15vw;
+          text-align: center;
+          background-color: #2a2e41;
+        "
+      >
+        <h1 id="Contact">Contact</h1>
+      </div>
+      <div
+        style="
+          margin: 125px;
+          justify-content: first baseline;
+          margin-top: 10px;
+          width: 35vw;
+          padding-top: 10px;
+        "
+      >
+        <div style="display: flex; align-items: center">
+          <img src="download.png" alt="Phone" height="50vw" />
+          <b>Phone No - +919021452556</b>
+        </div>
+        <br />
+        <br />
+        <div style="display: flex; align-items: center">
+          <img src="download (1).png" alt="Mail" height="50vw" />
+          <b>Email ID - patilsanket5267@gmail.com</b>
+        </div>
+        <br />
+        <br />
+        <div style="display: flex; align-items: center">
+          <img src="download (2).png" alt="LinkedIn" height="50vw>" />
+          <b>LinkedIn - Sanket Patil</b>
+        </div>
+        <br />
+        <br />
+      </div>
+    </div>
+  </body>
+</html>
